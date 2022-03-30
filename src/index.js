@@ -6,7 +6,7 @@ import './style.css';
    const element = document.createElement('div');
   const btn = document.createElement('button');
 
-   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
+   element.innerHTML = _.join(['Hello, Hi', 'webpack'], ' ');
    element.classList.add('hello');
 
 
